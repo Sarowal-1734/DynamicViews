@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#EDF8F8"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="7dp"
+    android:foreground="?selectableItemBackground"
+    app:cardUseCompatPadding="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Tamim"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:paddingStart="8dp"/>
+        <TextView
+            android:id="@+id/textViewTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangladesh"
+            android:paddingStart="8dp"
+            android:paddingBottom="3dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
